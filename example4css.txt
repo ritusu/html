@@ -1,0 +1,40 @@
+label{
+    display :block;
+    padding :10px;
+    font-weight: 700;
+}
+input{
+    border-radius:5px;
+    outline-color:orange;
+}
+#regform{
+    display:block;
+    border-radius:5px;
+    border: 1px #ddd solid;
+    background-color: #fff;
+    width:350px;
+    margin:auto;
+    padding: 14px 18px;
+}
+button{
+  
+       
+        background-color:goldenrod;
+        height: 500%;
+        width: 100%;
+}
+h1{
+    
+        font-family: Arial,sans-serif;
+       
+        padding-bottom: 4px;
+    
+}   
+img{
+   display :block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%
+    
+
+}
