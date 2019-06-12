@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Page Title</title>
+    
+</head>
+
+<style>
+    #myProgress {
+      width: 100%;
+      background-color: #ddd;
+    }
+    
+    #myBar {
+      width: 10%;
+      height: 50px;
+      background-color: #4CAF50;
+      text-align: right;
+      line-height: 30px;
+      color: white;
+    }
+    </style>
+<body>
+  <h1>        ...HTML5 WELCOMES YOU...     </h1>
+  <progress id="pb" value="20" max="100" ></progress>
+
+
+  <br>
+  <button onclick="show()">Click Me</button> 
+  
+<script> 
+  var t = setInterval(show, 1000); 
+  
+  
+  
+  function show() { 
+    var pb = document.getElementById("pb");
+        pb.value += 1;
+        if(pb.value >=500)
+        clearInterval(t);
+         } 
+    </script> 
+</body>
+
+</html>

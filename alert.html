@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form>
+    <br/>
+    Name : <input type="text" />
+    <br/>
+   DOJ : <input type="date" />
+   <br/>
+   Email : <input type="email" />
+   <br/>
+<button type ="submit" onclick="myalert()"  >Submit</button>
+
+
+</form>
+
+
+<script> 
+function myalert(){
+        var inputs, input, newValue, i;
+
+        inputs = document.getElementsByTagName('input');
+        for (i=0; i<inputs.length; i++) {
+            input = inputs[i];
+            if (input.name == "ans") {   
+                newValue = input.value;
+                alert(newValue);
+            }
+        
+
+  }
+  
+}
+        
+         
+    </script> 
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form>
+    <br/>
+    Name : <input id="n1" type="text" />
+    <br/>
+   DOJ : <input id="n2" type="date" />
+   <br/>
+   Email : <input id="n3" type="email" />
+   <br/>
+<button type ="submit" onclick="process()"  >Submit</button>
+
+
+</form>
+
+
+<script> 
+        function process() { 
+           var a=document.getElementById("n1").value; 
+           var b=document.getElementById("n2").value; 
+           var c=document.getElementById("n3").value; 
+           alert(a);
+           alert(b);
+           alert(c);
+        } 
+    </script> 
+
+</body>
+</html>

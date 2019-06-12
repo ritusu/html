@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>jquery</title>
-        <script src="https://code.jquery.com/jquery-3.4.1.js"> </script>
-        <script>
-            $(function() {
-               $("button").click(function(){
-                   var para=$("<p>").text("4500 rs").attr("style","color:red");
-                   $(".products").find("p").remove();
-                   $(".products").append(para);
-                   
-               })
-            })
-        </script>
+    <style>
 
-  
+       h2{
+           text-shadow: 10px 10px 10px #333
+       }
+       h3{
+           color: red;
+           text-shadow: black 0px 0px 20px;
+       }
+
+
+       .style1{
+           border: 2px solid #a1a1a1;
+           padding: 10px 10px;
+           background-color: orange;
+           width:300px;
+           border-radius:25px;
+       }
+       .style2{
+        border: 2px solid #a1a1a1;
+           padding: 10px 10px;
+           background-color:orange;
+           width:300px;
+           border-top-right-radius: 25px;
+           border-bottom-left-radius: 10px;
+       }
+        </style>
 </head>
 <body>
-    <ul>
-        <li class="products" style="list-style-type:none ">
-            <h2>Nokia 6600</h2>
-            <button>get price</button>
-        </li>
-    </ul>
-      
-   
+    <h2>HELLO EVERYONE</h2>
+    <h3>WELCOME</h3>
+    <input class="style1" />
+    <input class="style2" />
+
 </body>
 </html>

@@ -1,0 +1,21 @@
+label{
+    display:block;
+    align-content: center;
+}
+
+#regform{
+    display:block;
+    border-radius:5px;
+    border: 1px #ddd solid;
+   background-color:#fff;
+   width: 350px;
+   margin: auto;
+}
+#continue{
+    
+    height:100%;
+    width:100%;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
