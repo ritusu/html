@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>jquery</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"> </script>
+        <script>
+            $(function() {
+               $("button").click(function(){
+                   var para=$("<p>").text("4500 rs").attr("style","color:red");
+                   $(".products").find("p").remove();
+                   $(".products").append(para);
+                   
+               })
+            })
+        </script>
+
+  
+</head>
+<body>
+    <ul>
+        <li class="products" style="list-style-type:none ">
+            <h2>Nokia 6600</h2>
+            <button>get price</button>
+        </li>
+    </ul>
+      
+   
+</body>
+</html>

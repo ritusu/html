@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>jquery</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"> </script>
+        <script>
+            $(function() {
+                //understanding Dom traversaling
+                //$("li").text("hello");
+               // $("#products").css("color","red");
+             //  $("#products>>li").css("color","red");
+             $("#products li:first").css("color","red");
+             $("#products >li, #services> li:first").css({"color","red"},{"color","blue"});
+            })
+        </script>
+
+  
+</head>
+<body>
+    <ul id="products">
+        <li>Laptop</li>
+        <li>mobile</li>
+        <ul>
+            <li>sony</li>
+            <li>apple</li>
+        </ul>
+        <li>headphones</li>
+    </ul>
+    
+
+    <ul id="services">
+        <li>email</li>
+        <li>chat</li>
+        <li>sms</li>    
+    </ul>
+</body>
+</html>

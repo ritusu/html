@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>jquery</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"> </script>
+        <script>
+            $(function() {
+                //understanding Dom traversaling
+                //this time using jquery traversal API
+               // $("#products").find("li").css("color","red");
+               //$("#products").children("li").css("color","red");
+               //$("#services").find("li").first().css("color","red");
+               //$("li").last().prev().css("color","blue");
+               $("li").last().hide();
+            })
+        </script>
+
+  
+</head>
+<body>
+    <ul id="products">
+        <li>Laptop</li>
+        <li>mobile</li>
+        <ul>
+            <li>sony</li>
+            <li>apple</li>
+        </ul>
+        <li>headphones</li>
+    </ul>
+    
+
+    <ul id="services">
+        <li>email</li>
+        <li>chat</li>
+        <li>sms</li>    
+    </ul>
+</body>
+</html>
